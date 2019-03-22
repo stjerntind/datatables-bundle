@@ -13,7 +13,7 @@
             <argument type="service" id="doctrine" on-invalid="null" />
         </service>
         <service id="Omines\DataTablesBundle\Adapter\Doctrine\ODMAdapter">
-            <argument type="service" id="doctrine" on-invalid="null" />
+            <argument type="service" id="doctrine_mongodb" on-invalid="null" />
         </service>
                
         <!-- Columns -->
