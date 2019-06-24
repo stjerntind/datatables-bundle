@@ -53,7 +53,7 @@ class ODMAdapter extends AbstractAdapter
      *
      * @param RegistryInterface $registry
      */
-    public function __construct(RegistryInterface $registry = null)
+    public function __construct(ManagerRegistry $registry = null)
     {
         if (null === $registry) {
             throw new MissingDependencyException('Install doctrine/mongodb-odm-bundle to use the ODMAdapter');
